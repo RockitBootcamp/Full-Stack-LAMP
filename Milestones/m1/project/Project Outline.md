@@ -1,7 +1,7 @@
 # Milestone 1: Project Outline
 
 ## Project Background and Description
-Create a simple business website that consists of the following pages: Home, Contact, Browse, and Products. From each page, the user will see a copyright with '2015' in the footer, and will be able to click on links in the header to navigate between the different pages. The home page will consist of a message to welcome the user, as well as a smaller message asking if the user would like to browse products, with the word 'products' being a link to the browse page. From the browse page, the user will see three links of products he/she can click on. Once clicked, the user will be provided a message that reads "You chose the {{product name}}". The contact page will include a name, phone number, and email for the user to contact the business. 
+Create a simple business website that consists of the following pages: Home, Contact, Browse, and Products. From each page, there will be a header and a footer. The footer will include a copyright with '2015', and the header will include a 'logo' that reads 'Business Site' along with links the user will be able to click on to navigate between the different pages. The home page will consist of a message to welcome the user, as well as a smaller message asking if the user would like to browse products, with the word 'products' being a link to the browse page. From the browse page, the user will see three links of products he/she can click on. Once clicked, the user will be provided a message that reads "You chose the {{product name}}". The contact page will include a name, phone number, and email for the user to contact the business. 
 
 ## Project Scope
 Follow the provided graphic design to accomplish the site's HTML and CSS. The header and footer page are created once for the project and included onto each of the three pages. The background image should come from http://subtlepatterns.com/. Separate the HTML and PHP as much as possible (with php logic at the top, HTML below with php echoed where appropriate).
@@ -10,9 +10,9 @@ Follow the provided graphic design to accomplish the site's HTML and CSS. The he
 Your project must include the following:
 ######Files
 - header.php
-  - consists of links to navigate between pages and is included on each page
+  - included on each page and consists of a 'logo' that reads 'Business Site' and links to navigate between pages
 - footer.php
-  - consists of a copyright sign followed by '2015' and is included on each page
+  - included on each page and consists of a copyright sign followed by '2015'
 - index.php
   - this is the home page with the welcome message and browse products link
 - contact.php
