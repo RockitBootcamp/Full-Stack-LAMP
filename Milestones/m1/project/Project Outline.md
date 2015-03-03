@@ -30,9 +30,9 @@ Your project must include the following:
 - images/background.png
   - taken from http://subtlepatterns.com 
 
-## Tips
+### Tips
 
-All pages are PHP pages but the ones that have logic should have its PHP logic at the top of the page, then echos down in the HTML. For example:
+All pages are PHP pages, but the ones that have logic should have its PHP logic at the top of the page, then echos down in the HTML. For example:
 
 ```php
 <?php
