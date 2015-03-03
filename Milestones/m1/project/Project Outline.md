@@ -1,24 +1,38 @@
 # Milestone 1: Project Outline
 
-## Project: Business Website
-Create a four-page website for a business including (Home, Contact, Browse, and Product). Follow the provided graphic design to accomplish the site's HTML and CSS. Each page should have a header and a footer (which is the same header/footer for all three pages). Take advantage of PHP includes so the header and footer are created once for the project and are included onto each of the three pages. Use background image from http://subtlepatterns.com/ for the background. 
+## Project Background and Description
+Create a simple business website that consists of the following pages: Home, Contact, Browse, and Products. From each page, the user will be able to click on links in the header to navigate between the different pages and see a copyright 2015 in the footer. The home page will consist of a message to welcome the user, as well as a smaller message asking if the user would like to browse products, with the word 'products' being a link to the browse page. From the Browse Products page, the user will see three links of products he/she can click on. Once clicked, the user will be provided a message that reads "You chose the {{product name}}". The contact page will include a name, phone number, and email for the user to contact the business. 
 
-## Browse Page
-The browse page will list several products as links. Each link will have a GET variable indicating its numeric product ID and will pass this ID variable to the `product` page when clicked. For the numeric ID, use 1 for Mac, 2 for Ubuntu, and 3 for Windows. The product page will use `if` and `if-else` statements to determine which product was clicked. An output should be displayed which shows the name of the product clicked.
+## Project Scope
+Follow the provided graphic design to accomplish the site's HTML and CSS. The header and footer page are created once for the project and included onto each of the three pages. The background image should come from http://subtlepatterns.com/. Separate the HTML and PHP as much as possible (with php logic at the top, HTML below with php echoed where appropriate)
 
-## Files that need to be created:
-- index.php
-- contact.php
-- browse.php
-- product.php
+## Requirements
+Your project must include the following:
+######Files
 - header.php
+  - consists of links to navigate between pages and is included on each page
 - footer.php
-- images/background.png
+  - consists of a copyright sign followed by '2015' and is included on each page
+- index.php
+  - this is the home page with the welcome message and browse products link
+- contact.php
+  - consists of contact information of the business
+- browse.php
+  - Three product links: Mac, Ubuntu, Windows
+  - Each link will have a GET variable indicating its product ID (1, 2, 3).
+    - the ID variable will be passed to the `product` page when clicked. 
+    - Use 1 for Mac, 2 for Ubuntu, and 3 for Windows.
+- product.php
+  - Use `if` and `if-else` statements to determine which product was clicked.
+  - An output should be displayed to show the name of the product clicked.
 - css/styles.css
+  - Use the graphic design provided to accomplish the HTML & CSS.
+- images/background.png
+  - taken from http://subtlepatterns.com 
 
 ## Tips
 
-Separate HTML form PHP logic as much as possible. All pages are PHP pages but the ones that have logic should have their PHP logic at the top of the page, then echos down in the HTML. For example:
+All pages are PHP pages but the ones that have logic should have its PHP logic at the top of the page, then echos down in the HTML. For example:
 
 ```php
 <?php
@@ -45,34 +59,9 @@ if ($_GET['foo'] == 'foo') {
 </html>
 ```
 
-Notice the PHP logic on top which creates a variable to be echoed into the correct place below. We can't fully separate HTML from PHP but this is good enough for now. This next example shows the incorrect way:
+Notice the PHP logic on top creates a variable to be echoed into the correct place below. We can't fully separate HTML from PHP but this is good enough for now. 
 
-```php
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-
-<?php
-
-if ($_GET['foo'] == 'foo') {
-  echo 'Hello Foo';
-} else {
-  echo 'Hello Bar';
-}
-
-?>
-	
-</body>
-</html>
-```
-
-Even though they both produce the exact same output, we want to discourage this mixing of PHP logic into the HTML section of the file
-
-Spacing makes things easier to read. Be sure to use spaces around your PHP requires for legibility
+Spacing makes things easier to read. Be sure to use spaces around your PHP tags for legibility
 
 ```php
 <?php
