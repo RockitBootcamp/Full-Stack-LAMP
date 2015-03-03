@@ -1,24 +1,36 @@
 # Milestone 2: Project Outline
 
-## Project: Business Website
-Continue building upon the previous project to make it more complex with your new technical skills. 
-Product selection with a form
-In the last project, users selected their product with a link. This time use a form with the following fields
-- Dropdown field with options for products
-- Input field for quantity
+## Project Background and Description
+This project will build upon the previous business website you created by making it more complex with your enhanced PHP and CSS skills. Use the background image provided for the background of each page. The header and footer for each page will include the same information with a slight change to the header (see requirements below). The home page will include the same messages to the user with the same link to the browse page. The browse page will now have a drop down for the user to select a product, along with an input field for the user to enter the number of products he/she would like. The view page will have additional logic to output the appropriate message as outlined in the requirements below. You will need to create one additional file (products.php) that stores your product inventory as an indexed array. 
 
-## PHP
-Store your product inventory as an indexed array in it's own file called products.php (this will be the only additional file needed from the last project). Then on your product output page (product.php), instead of using if-else statements for every product in your inventory, use the GET variable from the form to determine which product name should be outputted. The output should look as follows when the user chooses 5 Macs from the form:
+## Project Scope
+Use the background.jpg for the background. The font needs to be `Lobster` for the logo and `Lato` for everything else. `Normalize.css` needs to be incorporated. A form should be created for the browse page, and a new file should be created and include an indexed array that stores the inventory of products. A user cannot order more than 7 Macs, and an output message should be displayed with the product and quantity being dynamically built. 
 
-`You want to order 5 Mac`
+## Requirements
+####CSS
 
-Each product should output a message similar to this with the quantity being dynamically built from the user's input. However, there's also another rule: If the user orders more than 7 mac, the user should be presented with this message:
+- Use the background.jpg image provided for the background of the business website
+- Use `background-size: cover` for the background image.
+- The logo 'Business Site' should be black and should not change color when clicked on 
+- Import and use `Lobster` and `Lato` fonts from Google fonts
+- Incorporate `Normalize.css`
 
-`You can't order over 7 Mac`
+####PHP
 
-## CSS
-With the new CSS, be sure to do the following:
-1. Turn the once `<div>` for the logo into a link. Make the link point to the home page
-2. Import `Lobster` and `Lato` fonts from Google Fonts to use
-3. Incorporate `Normalize.css`
-4. Use `background-size: cover` for the background image
+- header.php
+  - change the logo 'Business Site' to be a link that points to the home page
+- products.php
+  - this is an addition from the last milestone and should include an indexed array that stores the product inventory
+- browse.php
+  - use a form with a dropdown field that has options for products and an input field for quantity
+- view.php
+  - instead of `if-else` statements for every product, use the GET variable from the form to determine the product name to output
+  - the output message should include the product selected and the quantity the user input
+  - example of message: 'Your order includes {{quantity}} {{product}}'
+  - additional logic: if the user orders more than 7 Macs, the user should be presented with the message 'You can't order over 7 Mac'
+
+### Tips
+
+You should only be making changes to the header.php, browse.php, view.php, and css/styles.css pages. You should be adding only one file, titled products.php that includes only an indexed array. You will still use `if-else` statements to output messages from the view.php page, but you need to use GET variables to pull the data from the browse page. 
+
+
