@@ -11,7 +11,6 @@
 - [Flow and Floats](https://github.com/PhoenixRockit/Student-Resources/blob/master/CSS/08%20Flow%20and%20Floats)
 
 ## PHP Lessons
-- [Basic Operators](https://github.com/PhoenixRockit/Student-Resources/blob/master/PHP/04%20Basic%20Operators)
 - [Built-in Functions](https://github.com/PhoenixRockit/Student-Resources/blob/master/PHP/05%20Built-in%20Functions)
 - [Arrays](https://github.com/PhoenixRockit/Student-Resources/blob/master/PHP/06%20Arrays)
 - [Loops](https://github.com/PhoenixRockit/Student-Resources/blob/master/PHP/07%20Loops)

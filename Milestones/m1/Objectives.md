@@ -15,8 +15,8 @@
 ## PHP Lessons
 - [Basic Concepts](https://github.com/PhoenixRockit/Student-Resources/blob/master/PHP/01%20Basic%20Concepts)
 - [Variable Types](https://github.com/PhoenixRockit/Student-Resources/blob/master/PHP/02%20Variable%20Types)
-- [Basic Logic](https://github.com/PhoenixRockit/Student-Resources/blob/master/PHP/03%20Basic%20Logic)
-  - [Calculator Exercise](https://github.com/PhoenixRockit/Student-Resources/blob/master/PHP/03%20Basic%20Logic/SimpleCalc.md)   
+- [Basic Operators](https://github.com/PhoenixRockit/Student-Resources/blob/master/PHP/03%20Basic%20Operators)
+- [Basic Logic](https://github.com/PhoenixRockit/Student-Resources/blob/master/PHP/04%20Basic%20Logic)  
 
 ## Misc Lessons
 - [Unix Basics](https://github.com/PhoenixRockit/Student-Resources/blob/master/Misc/Unix/01%20Unix%20Basics)
