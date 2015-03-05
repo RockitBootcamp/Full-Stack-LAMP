@@ -1,4 +1,5 @@
 # Milestone 3: CSS Project Outline
+##Puppy Love
 
 ## Project Background and Description
 Using the HTML and CSS skills you have acquired, follow the provided graphic design to create a static site. This site will have two main sections - the *hero* div (top 1/3rd) and the *primary-content* div (bottom 2/3rds). In the top section, you will create a logo that reads "Puppy Love", a search field and button, a navigation bar, a header, and a brief "welcome to our site" message. 
