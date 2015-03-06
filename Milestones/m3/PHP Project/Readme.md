@@ -15,12 +15,10 @@ You need to create the following classes that will be used to perform validation
 - UsernameValidator: validate a username
 - PasswordValidator: validate a password
 - PhoneValidator: validate a phone number
-- NumberValidator: validate a number
-- ValidatorFactory: create an appropriate Validator for a given input type
 
 Your project should have, at least, the following two files:
 - super_validator.php: this will be the main "front-end" to your project that includes the html
-- Validator.php: this file will contain the validation related class as described in the "Validation" section of this document.
+- validator.php: this file will contain the validation related class as described in the "Validation" section of this document.
 - For each text field:
   - If the text is valid your program will:
     - populate the text field with the input value
@@ -33,8 +31,6 @@ The input fields of the form will look like this (ignore the drop down boxes, th
 
 ![state 3](image02.png)
 
-<a id="validation-details"></a>
-## Validation Details
 ### Validation Specifications:
 - email:
   - must contain one and only one '@' character
