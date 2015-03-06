@@ -30,8 +30,8 @@ Your project should have, at least, the following two files:
 The input fields of the form will look like this (ignore the drop down boxes, the left side will simply be labels):
 
 ![state 3](image02.png)
-
-### Validation Specifications:
+### Tips
+#### Validation Specifications:
 - email:
   - must contain one and only one '@' character
   - there must be at least one character to the left of the '@'
@@ -49,14 +49,13 @@ The input fields of the form will look like this (ignore the drop down boxes, th
   - may contain a '.', but not as the last character
   - may contain a '-' as the first character
 
-### Tips
 - get started NOW!
 - start simple, do the simplest thing you can to get started, then move onto the next simplest thing, repeat...
 - test your program after each step above
 - use git, checkin your code each time you get something working
 - ask questions, don't get stuck
 
-### Order of Things:
+#### Order of Things:
 1. don't worry about validation or classes to begin with. Start building the forms and making them work
 1. Create a data structure to hold input names, values, & validity
 1. Use above data structure to conditionally attach a CSS class to the inputs when you create them
