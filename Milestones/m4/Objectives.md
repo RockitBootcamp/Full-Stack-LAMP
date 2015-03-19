@@ -3,15 +3,13 @@
 ## PHP Lessons
 - [Connect to MySQL](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/14%20Connect%20to%20MySQL)
 - [OOP III](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/15%20OOP%20III)
-- [OOP IV](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/16%20OOP%20IV)
-- [Templating](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/17%20Templating)
+- [MVC I](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/18%20MVC%20I)
+- [MVC II](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/19%20MVC%20II)
 
 ## MySQL Lessons
 - [Database Design Basics](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/01%20Database%20Design%20Basics)
 - [SQL Basics](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/02%20SQL%20Basics)
 - [Normalization](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/03%20Normalization)
-- [SQL Joins I](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/04%20SQL%20Joins%20I)
-- [SQL Joins II](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/05%20SQL%20Joins%20II)
 
 ## JavaScript Lessons
 - [Arrays](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/07%20Arrays)
@@ -22,5 +20,3 @@
 - [jQuery Basics](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/12%20jQuery%20Basics)
 - [jQuery Events](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/13%20jQuery%20Events)
 - [Templating with Handlebars](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/15%20Templating%20with%20Handlebars)
-
-
