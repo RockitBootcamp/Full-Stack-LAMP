@@ -1,8 +1,7 @@
 # Milestone 5
 
 ## PHP Lessons
-- [MVC I](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/18%20MVC%20I)
-- [MVC II](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/19%20MVC%20II)
+- n/a
 
 ## MySQL Lessons
 - [Grouping](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/06%20Grouping)
