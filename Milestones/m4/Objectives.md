@@ -12,11 +12,15 @@
 - [Normalization](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/03%20Normalization)
 
 ## JavaScript Lessons
-- [Arrays](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/07%20Arrays)
-- [Loops](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/08%20Loops)
-- [Object Literals](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/09%20Object%20Literals)
-- [User Defined Functions](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/10%20User%20Defined%20Functions)
-- [Callback and Anonymous Functions](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/11%20Callback%20and%20Anonymous%20Functions)
-- [jQuery Basics](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/12%20jQuery%20Basics)
-- [jQuery Events](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/13%20jQuery%20Events)
-- [Templating with Handlebars](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/15%20Templating%20with%20Handlebars)
+- [jQuery Basics](https://github.com/RockitBootcamp/Student-Resources/blob/master/jQuery/01%20jQuery%20Basics)
+- [jQuery Events](https://github.com/RockitBootcamp/Student-Resources/blob/master/jQuery/02%20jQuery%20Events)
+- [Basic Logic](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/07%20Basic%20Logic)
+- [Built-in Methods and Properties](https://github.com/RockitBootcamp/Student-Resources/tree/master/JavaScript/08%20Built-in%20Methods%20and%20Properties)
+- [DOM and Document Methods](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/09%20DOM%20and%20Document%20Methods)
+- [Arrays](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/10%20Arrays)
+- [Loops](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/11%20Loops)
+- [Delegated Events](https://github.com/RockitBootcamp/Student-Resources/tree/master/jQuery/03%20Delegated%20Events)
+- [Templating with Handlebars](https://github.com/RockitBootcamp/Student-Resources/blob/master/jQuery/04%20Templating%20with%20Handlebars)
+
+
+

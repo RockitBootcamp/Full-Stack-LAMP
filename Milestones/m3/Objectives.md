@@ -2,9 +2,8 @@
 
 ## CSS Lessons
 - [Positioning](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/09%20Positioning)
-- [Tricks](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/10%20Tricks)
-- [Patterns I](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/11%20Patterns%20I)
-- [Patterns II](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/12%20Patterns%20II)
+- [Patterns I](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/10%20Patterns%20I)
+- [Patterns II](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/11%20Patterns%20II)
 
 ## PHP Lessons
 - [User Defined Functions](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/08%20User%20Defined%20Functions)
@@ -18,9 +17,9 @@
 - [Basic Concepts](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/01%20Basic%20Concepts)
 - [Variable Types](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/02%20Variable%20Types)
 - [Basic Operators](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/03%20Basic%20Operators)
-- [Basic Logic](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/04%20Basic%20Logic)
-- [Built-in Methods and Properties](https://github.com/RockitBootcamp/Student-Resources/tree/master/JavaScript/05%20Built-in%20Methods%20and%20Properties)
-- [DOM and Document Methods](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/06%20DOM%20and%20Document%20Methods)
+- [Object Literals](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/04%20Object%20Literals)
+- [User Defined Functions](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/05%20User%20Defined%20Functions)
+- [Callback and Anonymous Functions](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/06%20Callback%20and%20Anonymous%20Functions)
 
 ## Misc Lessons
 - [Regular Expressions](https://github.com/RockitBootcamp/Student-Resources/blob/master/Misc/Web/04%20Regular%20Expressions)

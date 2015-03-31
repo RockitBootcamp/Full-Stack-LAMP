@@ -6,7 +6,7 @@
 
 ## CSS Lessons
 - [Box Model](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/05%20Box%20Model)
-- [Reset vs Normalize](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/06%20Reset%20vs%20Normalize)
+- [Reset vs Normalize](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/06%20Resets)
 - [Pseudo Classes and Elements](https://github.com/RockitBootcamp/Student-Resources/tree/master/CSS/07%20Pseudo%20Classes%20and%20Elements)
 - [Flow and Floats](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/08%20Flow%20and%20Floats)
 
