@@ -7,7 +7,6 @@
   - Make sure each student has access to the Student Resources and the 15.2
 - Google Plus
   - Invite each student into plus page
-  - Paste a link to the Google Drive student section so they have the schedule
 - Create a Twitter account.
 - Create a LinkedIn account
   - Link with other students and Rockit staff on LinkedIn
