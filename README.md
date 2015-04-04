@@ -4,7 +4,7 @@
 
 - GitHub
   - Signup and have username available
-  - Make sure each student has access to the Student Resources and their Class-specific repo
+  - Make sure each student has access to the Student Resources and the 15.2
 - Google Plus
   - Invite each student into plus page
   - Paste a link to the Google Drive student section so they have the schedule
