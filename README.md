@@ -51,7 +51,7 @@
 
 - The schedule and some "power-point" style presentations are at [Google Drive](https://drive.google.com/a/azpixels.com/#folders/0Bx5x0ObRW281Q1lEbnJoOFBoUW8)
 - Most class materials are at GitHub in the [Student Resources Repository](https://github.com/RockitBootcamp/Student-Resources)
-  - Each milestone has approximately 14-18 lessons and discovering which lessons of Student Resources belong to which milestone is documented in your class-specific repo
+  - Each milestone has approximately 14-18 lessons and discovering which lessons of Student Resources belong to which milestone is documented in the 15.2 repo
   - Each lesson has a list of objectives which you are responsible for learning
   - The objectives also double-serve as a study guide for any tests and interviews
   - All lessons have links to outside resources that will supplement the in-class lesson
