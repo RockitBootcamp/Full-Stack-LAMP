@@ -59,6 +59,11 @@
   - There is a "Glossary of terms" available in the Student Resources
   - There is a file called "Cool Resources" which links to all kinds of interesting blogs and learning material
 
-  
+## Study
+
+- Feel free to come in early, stay late, meet with students on weekends, organize meetups, organize hangouts with other students
+- Bring a notebook and pen every day
+- Use tools like WorkFlowy and GitHub Gists to take electronic notes if you wish
+- Study tomorrow's material today, at least enough to be familair with terms and basic concepts
   
   
