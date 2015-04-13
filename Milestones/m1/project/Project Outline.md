@@ -1,9 +1,5 @@
 # Milestone 1: Project Outline
 
-## Daniel Notes:
-- specify that <br>'s should not be used
-- details page should handle wrong product-id's with something like "unknown product"
-
 ## Project Background and Description
 Create a simple business website that consists of the following pages: Home, Contact, Browse, and View. From each page, there will be a header and a footer. The footer will include a copyright with '2015', and the header will include a 'logo' that reads 'Business Site' along with links the user will be able to click on to navigate between the different pages. The home page will consist of a message to welcome the user, as well as a smaller message asking if the user would like to browse products, with the word 'products' being a link to the browse page. From the browse page, the user will see three links of products he/she can click on. Once clicked, the user will be provided a message that reads "You chose the {{product name}}". The contact page will include a name, phone number, and email for the user to contact the business. 
 
@@ -20,15 +16,17 @@ Your project must include the following:
 - index.php
   - this is the home page with the welcome message and browse products link
 - contact.php
-  - consists of contact information of the business
+  - consists of contact information of the business (name, phone number, and email can be ficticious)
 - browse.php
   - Three product links: Mac, Ubuntu, Windows
+  - Do not use `<br>` tags
   - Each link will have a GET variable indicating its product ID (1, 2, 3).
     - the ID variable will be passed to the `product` page when clicked. 
     - Use 1 for Mac, 2 for Ubuntu, and 3 for Windows.
 - view.php
   - Use `if` and `if-else` statements to determine which product was clicked.
   - An output should be displayed to show the name of the product clicked.
+  - You also need to include a statement to handle any product ID other than 1, 2, 3. For example, if the user were to enter "0" or "4" or "123", a message should be output to read something like "Your entry is not valid, please try again."
 - css/styles.css
   - Use the graphic design provided to accomplish the HTML & CSS.
 - images/background.png
