@@ -16,15 +16,17 @@ Your project must include the following:
 - index.php
   - this is the home page with the welcome message and browse products link
 - contact.php
-  - consists of contact information of the business
+  - consists of contact information of the business (name, phone number, and email can be ficticious)
 - browse.php
   - Three product links: Mac, Ubuntu, Windows
+  - Do not use `<br>` tags
   - Each link will have a GET variable indicating its product ID (1, 2, 3).
     - the ID variable will be passed to the `product` page when clicked. 
     - Use 1 for Mac, 2 for Ubuntu, and 3 for Windows.
 - view.php
   - Use `if` and `if-else` statements to determine which product was clicked.
   - An output should be displayed to show the name of the product clicked.
+  - You also need to include a statement to handle any product ID other than 1, 2, 3. For example, if the user were to enter "0" or "4" or "123", a message should be output to read something like "Your entry is not valid, please try again."
 - css/styles.css
   - Use the graphic design provided to accomplish the HTML & CSS.
 - images/background.png
