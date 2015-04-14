@@ -28,6 +28,8 @@ Use the background.jpg for the background. The font needs to be `Lobster` for th
   - the output message should include the product selected and the quantity the user input
   - example of message: 'Your order includes {{quantity}} {{product}}'
   - additional logic: if the user orders more than 7 Macs, the user should be presented with the message 'You can't order over 7 Mac'
+  - if the view.php page is accessed without either or both inputs (product & quantity) there should NOT be any errors
+  - if the view.php page is given an invalid product_id, there should be a message like "This product does not exist"
 
 ### Tips
 
