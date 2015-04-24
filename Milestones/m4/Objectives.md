@@ -23,4 +23,3 @@
 - [Templating with Handlebars](https://github.com/RockitBootcamp/Student-Resources/blob/master/jQuery/04%20Templating%20with%20Handlebars)
 
 
-
