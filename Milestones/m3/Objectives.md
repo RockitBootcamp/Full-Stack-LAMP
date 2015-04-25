@@ -10,8 +10,7 @@
 - [OOP I](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/09%20OOP%20I)
 - [OOP II](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/10%20OOP%20II)
 - [Try / Catch](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/11%20Try%20Catch)
-- [Server-Side Validation](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/12%20Server-Side%20Validation)
-- [Sessions](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/13%20Sessions)
+- [Sessions](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/12%20Sessions)
 
 ## JavaScript Lessons
 - [Basic Concepts](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/01%20Basic%20Concepts)

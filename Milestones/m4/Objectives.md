@@ -1,10 +1,10 @@
 # Milestone 4
 
 ## PHP Lessons
-- [Connect to MySQL](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/14%20Connect%20to%20MySQL)
+- [Connect to MySQL](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/13%20Connect%20to%20MySQL)
 - [OOP III](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/15%20OOP%20III)
-- [MVC I](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/18%20MVC%20I)
-- [MVC II](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/19%20MVC%20II)
+- [MVC I](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/17%20MVC%20I)
+- [MVC II](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/18%20MVC%20II)
 
 ## MySQL Lessons
 - [Database Design Basics](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/01%20Database%20Design%20Basics)
