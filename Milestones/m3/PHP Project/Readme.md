@@ -1,53 +1,148 @@
 # Milestone 3: PHP Project Outline
+
 ## User Login & Validation
 
 ## Project Background and Description
-This project will use your newly acquired PHP skills to create a user login page that validates the username and password. It will consist of three total pages (login page, home page, and logout page) and will:
-- use server side validation to verify login inputs
-- provide a *friendly* interface to users in the face of validation errors
-- have a home page that is only accessible to logged in users
 
-## Primary Requirements
-###User Facing:
-- index.php (login page)
-    - two login fields:
-        - username
-        - password (use input type="text" not "password")
-    - if the user is already logged in (has a session), they should be redirected to home.php
-    - if there are login errors:
-        - previous values should be pre-populated in their respective field
-        - error messages should be displayed to the right of their respective field
-        - error messages should be styled to be red
-        - **Extra Credit**:
-            - style the input fields to show an error
-            - style the input fields to show a correct value
-    - upon successful login validation:
-        - the username should be stored in $_SESSION
-        - the user is redirected to the home.php page
-- home.php
-    - if the user is not logged in, they should be redirected to index.php
-    - if the user is logged in, display a greeting with the user's username, a logout link, and some text like "this is the home page"
-- logout.php
-    - destroy the session and redirect to login.php
-    - should display a message like "you are being logged out..." and then redirected after 3 secs to index.php
+This project will use your newly acquired PHP skills to create a user login page that validates a username and password. The project will include:
 
-- Implementation:
-    - Classes:
-        - Validator class that can validate usernames and passwords. Has these methods:
-            - validUsername(username) -> Boolean
-                - validation criteria:
-                    - must be 5-8 characters
-                    - be made up of only a-z and A-Z
-            - validPassword(password) -> Boolean
-                - validation criteria:
-                    - must be 8+ characters
-                    - be made up of only: a-z, A-Z, 0-9, any of '!@#$%^&*()'
-                    - **Extra Credit**: contain at least one of each: alpha, numeric, & special-chars
-        - ErrorManager class that holds errors by name and has these methods:
-            - addError(name, error_message) -> NULL
-            - getError(name) -> String
-            - hasErrors() -> Boolean
+- Server side validation to verify login inputs
+- A *friendly* interface to users in the face of validation errors
+- A user account page that is only accessible to logged in users
 
-### Tips
-- you may want to create additional php files to hold your implementation logic, then include those files as necessary within your login.php, home.php, and logout.php files. 
-- only do the **Extra Credit** *after* you have completed the requirements of the project. 
+## User Facing Pages
+
+### `index.php`
+
+The home page will be a simple looking login form. The HTML and CSS have been provided for you and you can change this page as necessary.
+
+The PHP for this page should do the following:
+
+- Initialize the code (see below in this document)
+- Check to see if the user is already logged in (has a session). They should be redirected to `account.php` if so.
+- Check to see if the page is in recursive submission mode. If so:
+    - Check to make sure the username is valid using the `UsernameValidator` class
+    - Check to make sure the password is valid using the `PasswordValidator` class
+    - When the username or password values are not valid, error messages should be logged in the `ErrorManager` class
+    - After collecting all possible errors, check to see if the error manager collected any errors.
+        - If it didn't, log the user in with the `UserLogin` class.
+        - If it did, let the code continue to show the form and show the errors for each input field.
+
+#### Extra Credit
+
+- style the input fields to show an error
+- style the input fields to show a correct value
+
+
+### `account.php`
+
+The account page can only be accessed if a user is logged in. The PHP for this page should do the following:
+
+- Initialize the code (see below in this document)
+- Check to see if the user is not logged in (does not have a session). They should be redirected to `index.php` if so.
+- If they are logged in, show a welcome message that says "Hello [name]", with a logout link
+
+
+### `logout.php`
+
+The PHP for this page should do the following:
+
+- Initialize the code (see below in this document)
+- Call the `logout()` method of the `UserLogin` class
+- Redirect the user to the `index.php` page.
+
+#### Extra Credit
+
+Display a message like "you are being logged out..." and then redirected after 2 secs to `index.php`
+
+
+## Classes
+
+For this project, create several classes and place all of them in a folder called `classes`. Each class should have its own filename and each filename should be exactly the class name with a `.php` extension. Classnames (and filenames) should be in "title case", for example: "UserLogin" is correct and "userLogin" is not.
+
+The classes you need to make are as follows:
+
+- `ErrorManager`
+- `UserLogin`
+- `Validator`
+- `PasswordValidator extends Validator`
+- `UsernameValidator extends Validator`
+
+### ErrorManager
+
+The `ErrorManager` class will allow you to keep track of errors for input fields. It should have three methods:
+
+- `addError($name, $message)`
+- `getError($name)`
+- `hasErrors()`
+
+Using this class would work as follows:
+
+```php
+
+$errors = new ErrorManager();
+
+$errors->addError('username', 'This value isn\'t set');
+
+if ($errors->hasErrors()) {
+    // this would happen because our error object has errors
+}
+```
+
+### UserLogin
+
+The `UserLogin` class will start user sessions and end user sessions among other things. It should have four methods:
+
+- `startSession($username)`
+- `isLogged()`
+- `logout()`
+- `getUsername()`
+
+Using this class would work as follows:
+
+```php
+session_start();
+
+$userSession = new UserSession;
+
+$userSession->startSession('davesmith');
+if ($userSession->isLogged()) {
+    // This would happen because we're logged
+}
+
+$userSession->logout();
+if ($userSession->isLogged()) {
+    // This would not happen because we're not logged anymore
+}
+```
+
+### Validation
+
+The `Validation` class will serve as a parent class for `UsernameValidation` and `PasswordValidation`. You will not instantiate the `Validation` class directly, but you will instantiate the two child classes:
+
+```php
+$usernameValidator = new UsernameValidator;
+$passwordValidator = new PasswordValidator;
+```
+
+The `Validator` class will have one method called `isValid($value)`. This method will rely on regular expressions from the child class to determine if the value provided in the argument is valid.
+
+The Regular expressions needed are as follows:
+
+- `/^[a-zA-Z]{5,}$/` for usernames
+- `/^[a-zA-Z0-9!@#$%^&*\(\)]{5,}$/` for passwords
+
+The method `isValid($value)` should only return a `true` or `false`
+
+
+### Initializer
+
+Remember that only certain PHP files are intended for the user to visit in the browser. Other PHP files exist to facilitate the former. For now, let's call those files that the user visits in the browser "controllers". For this project, your controllers are `index.php`, `account.php` and `logout.php`.
+
+It's common when creating an application for each controller to need the same setup. In the case of this project, the setup would include doing a session start:
+
+```
+session_start();
+```
+
+... and doing all the necessary requires for other PHP files. Instead of having all this setup at the top of each controller, let's create a PHP file called `initialize.php`. Then from each controller let's include the initialize file which then do all the setup stuff that we need.
