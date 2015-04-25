@@ -7,10 +7,10 @@
 This project will use your newly acquired PHP skills to create a user login page that validates a username and password. The project will include:
 
 - Server side validation to verify login inputs
-- A *friendly* interface to users in the face of validation errors
+- A **friendly** interface to users in the face of validation errors
 - A user account page that is only accessible to logged in users
 
-## User Facing Pages
+## User Facing Pages (aka "Controllers")
 
 ### `index.php`
 
