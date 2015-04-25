@@ -61,7 +61,7 @@ Display a message like "you are being logged out..." and then redirected after 2
 
 ## Classes
 
-For this project, place all your classes in a folder called `classes`. Each class should have its own filename and each filename should be exactly the class name with a `.php` extension. Classnames (and filenames) should be in "title case", for example: "UserLogin" is correct and "userLogin" is not.
+For this project, place all your classes in a folder called `classes`. Each class should have its own file and each filename should be exactly the class name with a `.php` extension. Classnames (and filenames) should be in "title case", for example: "UserLogin" is correct and "userLogin" is not.
 
 The classes you need to make are as follows:
 
