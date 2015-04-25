@@ -30,8 +30,7 @@ The PHP for this page should do the following:
 
 #### Extra Credit
 
-- style the input fields to show an error
-- style the input fields to show a correct value
+- Style the input fields to be red-ish to indicate an error
 
 
 ### `account.php`
