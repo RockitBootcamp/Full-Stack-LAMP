@@ -25,8 +25,8 @@ The PHP for this page should do the following:
     - Check to make sure the password is valid using the `PasswordValidator` class
     - If the username or password values are not valid, error messages should be logged in the `ErrorManager` class
     - After the validation section, check to see if the error manager has any errors.
-        - If it doesn't have errors, log the user in with the `UserLogin` class.
-        - If it does have errors, let the code continue to show the form and show the errors for each input field.
+        - If it doesn't have errors, login the user with the `UserLogin` class.
+        - If it does have errors, let the code continue to show the form again with errors for each input field.
 
 #### Extra Credit
 
