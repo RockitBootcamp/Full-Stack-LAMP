@@ -19,14 +19,14 @@ The home page will be a simple looking login form. The HTML and CSS have been pr
 The PHP for this page should do the following:
 
 - Initialize the code (see below in this document)
-- Check to see if the user is already logged in (has a session). They should be redirected to `account.php` if so.
+- Check to see if the user is already logged in (has a session). They should be redirected to `account.php` if they are logged in.
 - Check to see if the page is in recursive submission mode. If so:
     - Check to make sure the username is valid using the `UsernameValidator` class
     - Check to make sure the password is valid using the `PasswordValidator` class
-    - When the username or password values are not valid, error messages should be logged in the `ErrorManager` class
-    - After collecting all possible errors, check to see if the error manager collected any errors.
-        - If it didn't, log the user in with the `UserLogin` class.
-        - If it did, let the code continue to show the form and show the errors for each input field.
+    - If the username or password values are not valid, error messages should be logged in the `ErrorManager` class
+    - After the validation section, check to see if the error manager has any errors.
+        - If it doesn't have errors, log the user in with the `UserLogin` class.
+        - If it does have errors, let the code continue to show the form and show the errors for each input field.
 
 #### Extra Credit
 
