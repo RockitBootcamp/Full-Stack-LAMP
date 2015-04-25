@@ -12,6 +12,10 @@ This project will use your newly acquired PHP skills to create a user login page
 
 ## User Facing Pages (aka "Controllers")
 
+- `index.php`
+- `account.php`
+- `logout.php`
+
 ### `index.php`
 
 The home page will be a simple looking login form. The HTML and CSS have been provided for you and you can change this page as necessary.
