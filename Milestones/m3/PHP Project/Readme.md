@@ -106,15 +106,15 @@ Using this class would work as follows:
 ```php
 session_start();
 
-$userSession = new UserSession;
+$userLogin = new UserLogin;
 
-$userSession->startSession('davesmith');
-if ($userSession->isLogged()) {
+$userLogin->startSession('davesmith');
+if ($userLogin->isLogged()) {
     // This would happen because we're logged
 }
 
-$userSession->logout();
-if ($userSession->isLogged()) {
+$userLogin->logout();
+if ($userLogin->isLogged()) {
     // This would not happen because we're not logged anymore
 }
 ```
