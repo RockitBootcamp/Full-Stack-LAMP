@@ -121,13 +121,13 @@ INSERT INTO item (name, price) VALUES ('ladder', 77.99);
 
 INSERT INTO item (name, price) VALUES ('shovel', 27.95);
 
-INSERT INTO item (name, price) VALUES ('hammer', 17.95);
+INSERT INTO item (name, price) VALUES ('pry bar', 19.97);
 
-INSERT INTO item (name, price) VALUES ('hammer', 17.95);
+INSERT INTO item (name, price) VALUES ('chisel', 10.46);
 
-INSERT INTO item (name, price) VALUES ('hammer', 17.95);
+INSERT INTO item (name, price) VALUES ('voltage tester', 18.97);
 
-INSERT INTO item (name, price) VALUES ('hammer', 17.95);
+INSERT INTO item (name, price) VALUES ('laser level', 49.97);
 
 --
 -- Insert data into invoice table
