@@ -1,0 +1,51 @@
+Role Players
+
+- Sessions
+- Validation
+- Form
+- Message System
+
+
+
+** Form (index.php) **
+
+Fill out the form, submit the form
+Validate Input
+    Validate the Username
+    Validate the Password
+
+If Validation is successful, start the session
+and send the user to their account
+
+If the validation is not successful, then show
+the user their error message
+
+
+
+
+
+** Pseudo Code **
+
+Here is the pseudo code for the index page:
+
+If we're in recursive mode {
+
+    Validate the Username
+        if not good {
+            add a message to our error manager
+        }
+
+    Validate the Password
+        if not good {
+            add a message to our error manager
+        }
+
+    if the error manager has no errors {
+        Log the person in
+        Redirect
+    }
+
+}
+    
+
+
