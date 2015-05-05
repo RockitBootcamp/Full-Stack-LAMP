@@ -121,7 +121,7 @@ if ($userLogin->isLogged()) {
 
 ### Validation
 
-The `Validation` class will serve as a parent class for `UsernameValidation` and `PasswordValidation`. You will not instantiate the `Validation` class directly, but you will instantiate the two child classes:
+The `Validator` class will serve as a parent class for `UsernameValidator` and `PasswordValidator`. You will not instantiate the `Validator` class directly, but you will instantiate the two child classes:
 
 ```php
 $usernameValidator = new UsernameValidator;
