@@ -1,4 +1,4 @@
-# 15.2 Orientation
+# Orientation
 
 ## Accounts
 
