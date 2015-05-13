@@ -13,8 +13,6 @@
 
 <form action="{{ URL::to('customer') }}/{{$customer->id}}/edit" method="POST">
     <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>"> 
-    {{-- <div><span>Name:</span><input type="text" name="name" value="{{ $item->name }}"></div> --}}
-
     <div><span>FirstName:</span><input type="text" name="first_name" value="{{ $customer->first_name }}"></div>
     <div><span>LastName:</span><input type="text" name="last_name" value="{{ $customer->last_name }}"></div>
     <div><span>Email: </span><input type="text" name="email" value="{{ $customer->email }}"></div>
