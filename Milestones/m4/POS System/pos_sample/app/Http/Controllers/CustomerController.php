@@ -2,6 +2,7 @@
 
 use Request;
 use App\Models\Customer;
+use Carbon\Carbon;
 
 class CustomerController extends Controller {
 
@@ -58,7 +59,8 @@ class CustomerController extends Controller {
 		$customer->last_name = Request::get('last_name');
 		$customer->email = Request::get('email');
 		$customer->phone = Request::get('phone');
-		$customer->update();
+		$customer->gender = Request::get('gender');
+		$customer->save();
 		return redirect('customer/' . $id);
 	}
 
@@ -73,10 +75,10 @@ class CustomerController extends Controller {
 	 */
 	protected function validateForm() {
 		$this->validate(Request::instance(), [
-			'first_name' => 'required|alpha|min:3|max:50',
-			'last_name' => 'alpha|between:5,50',
-			'email' => 'email|unique:customer',
-			'phone' => 'required|regex:/^\d{3}[-.]\d{3}[-.]\d(4}$',
+			'first_name' => 'required|alpha|min:2|max:50',
+			'last_name' => 'alpha|between:2,50',
+			'email' => 'email',
+			'phone' => 'required|regex:/^\d{3}[-.]\d{3}[-.]\d{4}$/',
 			'gender' => 'required|in:m,f,M,F'
 		]);
 	}

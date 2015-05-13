@@ -19,6 +19,8 @@
     <div><span>LastName:</span><input type="text" name="last_name" value="{{ old('last_name') }}"></div>
     <div><span>Email: </span><input type="text" name="email" value="{{ old('email') }}"></div>
     <div><span>Phone: </span><input type="text" name="phone" value="{{ old('phone') }}"></div>
+    <div><span>Gender: </span><input type="text" name="gender" value="{{ old('gender') }}"></div>
     <div><button>Save</button></div>
+
 </form>
 @endsection

@@ -18,7 +18,7 @@ create table customer (
 create table invoice (
     id int auto_increment primary key,
     customer_id int not null,
-    created_at 
+    created_at timestamp
 );
 
 create table invoice_item (

@@ -1,7 +1,7 @@
 <?php 
 namespace App\Models;
 
-// use DB;
+use DB;
 use Carbon\Carbon;
 
 class Customer extends Model {
@@ -26,12 +26,6 @@ class Customer extends Model {
         } else {
             return 'forever';
         }
-    }
-
-    public function update($data=[]) {
-        $this->data['id'] = $this->getId();
-        DB::update('update customer set first_name = :first_name, last_name = :last_name, email = :email, phone = :phone',
-            $this->getData());
     }
 
     public function delete() {

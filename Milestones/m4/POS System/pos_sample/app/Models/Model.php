@@ -90,15 +90,16 @@ abstract class Model {
      * Update
      */
     public function update($data) {
+
         // Merge new data with old data
         $this->data = array_merge($this->data, $data);
-        // $updates = array_merge($this->data);
-        // unset($updates[static::$key]);
+
         // Add the key to the data for the purposes of parameter
         // binding for the WHERE clause
         $data[static::$key] = $this->id;
+        
         // Update
-        Sql::update(static::$table, $data, Sql::where([static::$key => $this->id]), [static::$key]);
+        Sql::update(static::$table, $data, Sql::where([static::$key => $this->id]));
         return $this->id;
     }
     /****************************************
