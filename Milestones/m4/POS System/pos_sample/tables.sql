@@ -45,6 +45,7 @@ insert into customer (first_name, last_name, email, phone, customer_since)
     ('bob', 'dylan', 'bob@rollinstone.com', '999-999-9999', '1963-05-05'),
     ('dennis', 'ritchie', 'dennis@c.com', '000-000-0000', '1972-02-05'),
     ('larry', 'wall', 'god@perl.com', '777-777-7777', '1988-03-23');
+    ('karen', 'jones', 'kjones@gmail.com', '504-555-1212', '1981-04-04');
 
 insert into invoice (customer_id, created_at)
     values
