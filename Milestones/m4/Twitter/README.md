@@ -104,7 +104,7 @@ Be sure to study the CSS and see how it works. There are two parts to this site 
 	</div>
 </form>
 ```
-The presense of `.expand` is a state change and the CSS will change the `.compose` to allow the `div` to be shown. It will also change the height of the `textarea`. JavaScript is responsible for behavior, so JS will determine when a state needs to be changed with events (like clicks), but it will only add/remove this class. CSS is responsible for what that state looks like.
+The presence of `.expand` is a state change and the CSS will change the `.compose` to allow the `div` to be shown. It will also change the height of the `textarea`. JavaScript is responsible for behavior, so JS will determine when a state needs to be changed with events (like clicks), but it will only add/remove this class. CSS is responsible for what that state looks like.
 
 The second state we will manage is when an original tweet gets clicked (not a reply tweet). When this happens we will toggle the respective `.thread`'s visibility. Similarly to the compose section mentioned earlier, we will use an `.expand` to be added to the `.thread`. Just keep in mind that this `.expand` has nothing to do with the other one. We're just using similar class names to do similar concepts. Again, study the CSS to see how this is done.
 
