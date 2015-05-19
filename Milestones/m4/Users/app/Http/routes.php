@@ -11,11 +11,16 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', function() {
+    return redirect('users');
+});
 
-Route::get('home', 'HomeController@index');
+Route::get('users', 'UserController@viewAll');
+Route::get('users/create', 'UserController@create');
+Route::post('users/create', 'UserController@postCreate');
+Route::get('users/{id}', 'UserController@view');
+Route::get('users/{id}/update', 'UserController@update');
+Route::post('users/{id}/update', 'UserController@postUpdate');
+Route::get('users/{id}/delete', 'UserController@delete');
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+
