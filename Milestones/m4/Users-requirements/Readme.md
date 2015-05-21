@@ -18,3 +18,7 @@ Your job is to fill in the missing code. Most of it will be related to accessing
 - screenshots are provided in this directory which show how the pages should be linked to each other
 - NO input validation is required
 - NO new files will need to be created
+
+## Bonus Requirements
+- use the input validation mechanism that is built into laravel. (Look in the ItemController or CustomerController in the POS project for example usage)
+
