@@ -17,7 +17,7 @@
 - [Variable Types](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/02 Variable Types)
 - [Basic Operators](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/03 Basic Operators)
 - [User Defined Functions](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/04 User Defined Functions)
-- [Object Literals](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/05 Object Literals)
+- [Object Literals I](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/05 Object Literals)
 - [Callback and Anonymous Functions](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/06 Callback and Anonymous Functions)
 
 ## Misc Lessons

@@ -14,11 +14,11 @@
 ## JavaScript Lessons
 - [jQuery Basics](https://github.com/RockitBootcamp/Student-Resources/blob/master/jQuery/01 jQuery Basics)
 - [jQuery Events](https://github.com/RockitBootcamp/Student-Resources/blob/master/jQuery/02 jQuery Events)
-- [Basic Logic](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/07 Basic Logic)
-- [Built-in Methods and Properties](https://github.com/RockitBootcamp/Student-Resources/tree/master/JavaScript/08 Built-in Methods and Properties)
-- [DOM and Document Methods](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/09 DOM and Document Methods)
-- [Arrays](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/10 Arrays)
-- [Loops](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/11 Loops)
+- [Basic Logic](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/08 Basic Logic)
+- [Built-in Methods and Properties](https://github.com/RockitBootcamp/Student-Resources/tree/master/JavaScript/09 Built-in Methods and Properties)
+- [DOM and Document Methods](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/10 DOM and Document Methods)
+- [Arrays](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/11 Arrays)
+- [Loops](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/12 Loops)
 - [Delegated Events](https://github.com/RockitBootcamp/Student-Resources/tree/master/jQuery/03 Delegated Events)
 - [Templating with Handlebars](https://github.com/RockitBootcamp/Student-Resources/blob/master/jQuery/04 Templating with Handlebars)
 
