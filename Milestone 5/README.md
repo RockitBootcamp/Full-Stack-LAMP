@@ -4,14 +4,14 @@
 - n/a
 
 ## MySQL Lessons
-- [Grouping](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/04%20Grouping)
-- [Sub Queries](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/05%20Sub%20Queries)
-- [SQL Joins I](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/06%20SQL%20Joins%20I)
-- [SQL Joins II](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/07%20SQL%20Joins%20II)
+- [Grouping](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/04 Grouping)
+- [Sub Queries](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/05 Sub Queries)
+- [SQL Joins I](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/06 SQL Joins I)
+- [SQL Joins II](https://github.com/RockitBootcamp/Student-Resources/blob/master/MySQL/07 SQL Joins II)
 
 ## JavaScript Lessons
-- [AJAX](https://github.com/RockitBootcamp/Student-Resources/blob/master/jQuery/05%20AJAX)
+- [AJAX](https://github.com/RockitBootcamp/Student-Resources/blob/master/jQuery/05 AJAX)
 
 ## Misc
-- [Git Branching](https://github.com/RockitBootcamp/Student-Resources/blob/master/Misc/Git/03%20Git%20Branching)
+- [Git Branching](https://github.com/RockitBootcamp/Student-Resources/blob/master/Misc/Git/03 Git Branching)
 
