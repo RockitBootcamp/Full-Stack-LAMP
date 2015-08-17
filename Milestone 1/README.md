@@ -25,3 +25,6 @@
 - [Sublime Text](https://github.com/RockitBootcamp/Student-Resources/blob/master/Misc/Workflow/03 Sublime Text)
 - [Basic HTTP Concepts](https://github.com/RockitBootcamp/Student-Resources/blob/master/Misc/Web/01 Basic HTTP Concepts)
 - [Git Basics](https://github.com/RockitBootcamp/Student-Resources/blob/master/Misc/Git/01 Git Basics)
+
+## Milestone 1 Project
+- [PHP Products v1](https://github.com/RockitBootcamp/Phoenix/tree/master/Projects/PHP%20Products%20v1)
