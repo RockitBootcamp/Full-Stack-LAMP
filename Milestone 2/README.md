@@ -18,3 +18,7 @@
 ## Misc Lessons
 - [SSH Keys](https://github.com/RockitBootcamp/Student-Resources/blob/master/Misc/Unix/02 SSH Keys)
 - [GitHub and Collaboration](https://github.com/RockitBootcamp/Student-Resources/blob/master/Misc/Git/02 GitHub and Collaboration)
+
+## Milestone 2 Projects
+- [CSS Basic Layout](https://github.com/RockitBootcamp/Phoenix/tree/master/Projects/CSS%20Basic%20Layout)
+- [PHP Project v2](https://github.com/RockitBootcamp/Phoenix/tree/master/Projects/PHP%20Projects%20v2)
