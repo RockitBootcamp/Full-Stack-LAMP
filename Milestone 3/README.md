@@ -22,3 +22,7 @@
 
 ## Misc Lessons
 - [Regular Expressions](https://github.com/RockitBootcamp/Student-Resources/blob/master/Misc/Web/04 Regular Expressions)
+
+## Milestone 3 Projects
+- [CSS Puppy Love](https://github.com/RockitBootcamp/Phoenix/tree/master/Projects/CSS%20Puppy%20Love)
+- PHP project: link not yet avail
