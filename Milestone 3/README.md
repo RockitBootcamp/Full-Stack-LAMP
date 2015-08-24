@@ -1,9 +1,9 @@
 # Milestone 3
 
 ## CSS Lessons
-- [Positioning](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/09 Positioning)
-- [Patterns I](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/10 Patterns I)
-- [Patterns II](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/11 Patterns II)
+- [Positioning](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/10 Positioning)
+- [Patterns I](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/11 Patterns I)
+- [Patterns II](https://github.com/RockitBootcamp/Student-Resources/blob/master/CSS/12 Patterns II)
 
 ## PHP Lessons
 - [User Defined Functions](https://github.com/RockitBootcamp/Student-Resources/blob/master/PHP/08 User Defined Functions)
