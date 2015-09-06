@@ -14,7 +14,7 @@
 
 ## JavaScript Lessons
 - [Basic Concepts](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/01 Basic Concepts)
-- [Variable Types](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/02 Variable Types)
+- [Data Types](https://github.com/RockitBootcamp/Student-Resources/tree/master/JavaScript/02%20Data%20Types)
 - [Basic Operators](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/03 Basic Operators)
 - [User Defined Functions](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/04 User Defined Functions)
 - [Object Literals I](https://github.com/RockitBootcamp/Student-Resources/blob/master/JavaScript/05 Object Literals)
