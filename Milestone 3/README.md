@@ -25,4 +25,4 @@
 
 ## Milestone 3 Projects
 - [CSS Puppy Love](https://github.com/RockitBootcamp/Phoenix/tree/master/Projects/CSS%20Puppy%20Love)
-- PHP project: link not yet avail
+- [PHP project](https://github.com/RockitBootcamp/Phoenix/tree/master/Projects/PHP%20Login%20with%20Sessions)
